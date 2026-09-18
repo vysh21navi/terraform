@@ -16,7 +16,7 @@ resource "aws_instance" "rishi" {
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.rishi.id
     tags = {
-        Name = "rishi-instance"
+        Name = "rishiii-instance"
     }
 }
 resource "aws_s3_bucket" "rishi" {
